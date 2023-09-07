@@ -1,0 +1,57 @@
+<p>routing works!</p>
+<button type="button" class="btn btn-primary">Primary</button>
+<div class="row">
+    <div class="col-md-8">
+        <div class="card" >
+            <img class="card-img-top" src="https://images.pexels.com/photos/11351742/pexels-photo-11351742.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">bags</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a routerLink="bags" class="btn btn-primary">Go bags</a>
+            </div>
+          </div>
+          <div class="card" >
+            <img class="card-img-top" src="https://images.pexels.com/photos/5732159/pexels-photo-5732159.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">jumpsuit</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a routerLink="jumpsuit" class="btn btn-primary">Go jumpsuit</a>
+            </div>
+          </div>
+
+
+
+
+          <!-- <div class="row">
+            <label>Time Of Appointment:</label>
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mb-3">
+              <mat-button-toggle-group name="timeSlot" aria-label="Time Slot" class="mb-5"
+                formControlName="timeSlot">
+                <mat-button-toggle value="slot1">10:30-11:00</mat-button-toggle>
+                <mat-button-toggle value="slot2">11:00-11:30</mat-button-toggle>
+                <mat-button-toggle value="slot3" [disabled]="isDisabled">11:30-12:00</mat-button-toggle>
+                <mat-button-toggle value="slot4">12:00-12:30</mat-button-toggle>
+                <mat-button-toggle value="slot5">12:30-01:00</mat-button-toggle>
+                <mat-button-toggle value="slot6">03:30-04:00</mat-button-toggle>
+                <mat-button-toggle value="slot7">04:00-04:30</mat-button-toggle>
+                <mat-button-toggle value="slot8">04:30-05:00</mat-button-toggle>
+                <mat-button-toggle value="slot9">05:00-05:30</mat-button-toggle>
+                <mat-button-toggle value="slot10">05:30-06:00</mat-button-toggle>
+              </mat-button-toggle-group>
+            </div>
+          </div> -->
+
+          <!-- <i _ngcontent-xwl-c236="" class="material-icons align-middle">content_cut</i> -->
+          <!-- <div _ngcontent-xwl-c236="" class="card-icon shadow-primary bg-orange"><i _ngcontent-xwl-c236="" class="material-icons align-middle">content_cut</i></div>
+          -->
+         
+    </div>
+<!-- 
+
+    
+    <ul _ngcontent-xwl-c236="" class="list-unstyled order-list"><li _ngcontent-xwl-c236="" class="avatar avatar-sm"><img _ngcontent-xwl-c236="" src="assets/images/user/user1.jpg" alt="user" class="rounded-circle"></li><li _ngcontent-xwl-c236="" class="avatar avatar-sm"><img _ngcontent-xwl-c236="" src="assets/images/user/user2.jpg" alt="user" class="rounded-circle"></li><li _ngcontent-xwl-c236="" class="avatar avatar-sm"><img _ngcontent-xwl-c236="" src="assets/images/user/user3.jpg" alt="user" class="rounded-circle"></li><li _ngcontent-xwl-c236="" class="avatar avatar-sm"><span _ngcontent-xwl-c236="" class="badge">+4</span></li></ul> -->
+
+    <div class="col-md-4">
+        <router-outlet></router-outlet>
+    </div>
+</div>
